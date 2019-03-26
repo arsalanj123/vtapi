@@ -4,6 +4,8 @@ Virus Total API
 ![version](https://img.shields.io/badge/version-25.03.19-lightgrey.svg?style=flat-square)
 [![twitter](https://img.shields.io/badge/Twitter-@decoxviii-blue.svg?style=flat-square)](https://twitter.com/decoxviii)
 
+Get reports and scan malware and URLs from the terminal.
+
 ![screenshot](screenshot.png)
 
 ### Install
