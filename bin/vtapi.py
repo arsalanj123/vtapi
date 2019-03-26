@@ -55,7 +55,11 @@ def print_result(result):
     data = {
         'SHA-1:':sha1,
         'Resource:':result['resource'],
-        'Detection ratio:':'{}/{} - {}% Trusted'.format(result['positives'], result['total'], int((result['positives']/result['total'])*100))
+        'Detection ratio:':'{}/{} ({:.2f}% Malicious)'.format(
+            result['positives'], 
+            result['total'],
+            result['positives']/result['total']*100
+        )
     }
 
     for item in data.items():
